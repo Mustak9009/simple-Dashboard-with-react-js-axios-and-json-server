@@ -1,0 +1,57 @@
+/*                                  -:Dashboard element style:-                    25/11/2021  */
+.DashBoard_home_element{
+    display: flex;
+    margin-left: 90px;
+    justify-content: center;
+    padding: 0.8rem;
+    /* flex-direction: column; */
+    margin-top: 1rem;
+}
+/*              =>  Home page style */
+.home_cards {
+    display: flex;
+    width:70%;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_cards > div div{
+    padding: 20px;
+    width: 16rem;
+    height: 8rem;
+    font-family: sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:10px;
+}
+.home_cards > div div h2{
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_cards > div div h2 span{
+    font-size: 17px;
+}
+.home_cards > div div p{
+    opacity: 0.7;
+}
+.AiOutlineArrowDown{
+    color: red;
+    font-size: 1.4rem;
+}
+.AiOutlineArrowUp{
+    color: green;
+    font-size: 1.4rem;
+}
+/*                              [+]Charts css:-     */
+.chartForDashBoard{
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-right: 11.5rem;
+    height: 20rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 10px;
+}

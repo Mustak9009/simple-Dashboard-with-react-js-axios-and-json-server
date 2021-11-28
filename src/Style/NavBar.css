@@ -1,0 +1,125 @@
+/*                                      -:NaviGation bar style:-              -:17/11/2021  */
+.NavBar_Main_container{
+    margin-left: 250px;
+    transition: 0.8s;
+}
+.NavBar_Main_container >*{
+    background-color: rgb(44,55,69);
+}
+/*                                 -:NavBar(first)style:-                               */
+.NavBar_content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.575);
+    background-color: rgb(49, 62, 82);
+}
+.NavBar_content_sameStyle{
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+    align-items: center;
+}
+/*          [+]NavBar left side -> style */
+.NavBar_content_left_side svg{
+    font-size: 1.6rem;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.664);
+    cursor: pointer;
+}
+.active_navBar_links{
+    color: rgba(255, 255, 255, 0.692) !important;
+}
+.NavBar_content_left_side a{
+    text-decoration: none;
+    font-weight: 1000;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+/*           [+]Navigation bar -> right side style                                  */
+.NavBar_content_right_side{
+    width: 40%;
+    color: white;
+}
+.NavBar_right_side_day_night{
+    width: 6rem;
+    height: 2.6rem;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(157,151,214);
+    cursor: pointer;
+}
+.NavBar_right_side_day_night svg{
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 10px;
+    font-size: 1rem;
+}
+.NavBar_right_side_day_night svg:first-child:hover{
+    background-color: rgb(129, 123, 177);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.NavBar_right_side_day_night svg:last-child:hover{
+    background-color: rgb(129, 123, 177);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.NavBar_right_side_icons{
+    width: 15rem;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    position: relative;
+}
+.NavBar_right_side_image{
+    margin-right: 10px;
+}
+/*        NavBar bottom links -> style           */
+.NavBar_show_pageLinks{
+    padding: 0.3rem;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.NavBar_show_pageLinks span{
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(164, 164, 226);
+    font-size: 17px;
+}
+.NavBar_show_pageLinks div{
+    display: inline-block;
+    background-color: white;
+    width: 1.5px;
+    height: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(20deg);
+}
+.Active_second_nav_bar_link{
+    text-decoration: underline;
+}
+/* When user click on (hamburger menu) -> */
+.NavBar_full_Size{
+    margin-left: 6rem;
+}
+
+/* NavBar right side icons */
+.NavBar_right_side_icon:hover{
+    color: lightgreen;
+}
+/*              [+]NavBar right side img */
+.NavBar_right_side_image div img{
+    width: 2rem;
+    border-radius: 20px;
+   
+    cursor: pointer;
+}

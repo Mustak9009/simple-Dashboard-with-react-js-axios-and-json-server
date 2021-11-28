@@ -1,0 +1,69 @@
+{
+    "DashboardHomePageCards":[
+        {
+            "id":1,
+            "heading":"Revenue",
+            "price":"2,415",
+            "priceRate":"-11.4",    
+            "text":"Compared to last month"
+        },
+        {
+            "id":2,
+            "heading":"Sales",
+            "price":"4,415",
+            "priceRate":"+1.4",    
+            "text":"Compared to last month"
+        },
+        {
+            "id":3,
+            "heading":"Cost",
+            "price":"2,225",
+            "priceRate":"-2.4",    
+            "text":"Compared to last month"
+        }
+    ],
+    "HomeReChardData":[
+        {
+            "name": "January",
+            "Revenue": 4000,
+            "Sales": 2400,
+            "Cost": 240
+        },
+        {
+            "name": "February",
+            "Revenue": 3000,
+            "Sales": 1398,
+            "Cost": 2210
+        },
+        {
+            "name": "March",
+            "Revenue": 2000,
+            "Sales": 9800,
+            "Cost": 2290
+        },
+        {
+            "name": "April",
+            "Revenue": 2780,
+            "Sales": 3908,
+            "Cost": 2000
+        },
+        {
+            "name": "May",
+            "Revenue": 1890,
+            "Sales": 4800,
+            "Cost": 2181
+        },
+        {
+            "name": "June",
+            "Revenue": 2390,
+            "Sales": 3800,
+            "Cost": 2500
+        },
+        {
+            "name": "July",
+            "Revenue": 3490,
+            "Sales": 4300,
+            "Cost": 2100
+        }
+    ]
+}

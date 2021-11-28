@@ -1,0 +1,152 @@
+/*                                  -:Side bar css:-            -:13/11/2021*/
+/* Import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Open+Sans&family=Oswald:wght@300&family=Roboto:wght@300&display=swap");
+
+/* Normal style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*                                -:SideBar container style:-                                */
+
+.sideBar_main_div {
+  width: 250px;
+  position: fixed;
+  background-color: rgb(44, 55, 69);
+  color: white;
+  transition: 0.8s;
+  height: 40rem;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /* Side bar scroll ->use this */
+  /* overflow-x: hidden; */
+}
+/* Hide ScrollBar of SideBar.. */
+.sideBar_main_div::-webkit-scrollbar{
+  display: none;                       /* For Chrome*/
+}
+.sideBar_main_div{
+  scrollbar-width: none;              /*  For fire-fox */
+}
+/*                                      -:Sidebar heading style:-                               */
+.sideBar_heading {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 12rem;
+}
+.sideBar_heading_logo {
+  margin-top: 1rem;
+  width: 70%;
+}
+.sideBar_heading_logo img {
+  width: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.sideBar_heading_text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.sideBar_heading_text p:first-child {
+  font-size: 18px;
+}
+.sideBar_heading_text p:last-child {
+  opacity: 0.6;
+}
+/*                                       -:Sidebar menu heading style:-                       */
+.sideBar_menu_heading {
+  padding: 13px;
+  background-color: rgb(93, 224, 93);
+  font-family: "Open Sans", sans-serif;
+}
+/*                                        -:Sidebar menu style:-                            */
+.sideBar_menu {
+  height: inherit;
+  margin-top: 1rem;
+}
+.sideBar_menu_Dashboards a {
+  color: white;
+  display: inline-block;
+  padding: 1rem;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.sideBar_menu_Dashboards a svg {
+  position: absolute;
+  right: 24px;
+  font-size: 22px;
+}
+.dashboards_content {
+  background-color: rgb(70, 82, 96);
+  width: 100%;        
+  margin-bottom: 10px;
+}
+.dashboards_content li {
+  list-style: none;
+}
+.dashboards_content a svg {
+  position: absolute;
+  right: 25px;
+}
+
+/*                -:SideBar menu when active -> Links:-                     */
+.SideBar_Heading_active {
+  background-color: rgb(70, 82, 96);
+  border-left: 3px solid lightgreen;
+}
+.dashboards_content a:hover {
+  color: lightgreen;
+}
+.active_links_of_sidebar_menu {
+  color: lightgreen !important;
+}
+
+.sideBar_heading_active_ON{
+  background-color: rgb(70, 82, 96);
+  border-left: 3px solid lightgreen;
+}
+/* Depends on topNavBar -> user interaction  */
+.activeSideBar_length{
+  width: 6rem;
+  transition: 0.8s;
+}
+.activeSideBar_length .sideBar_heading_text p{
+  font-size: 14px;
+  text-align: center;
+}
+
+.activeSideBar_length .sideBar_menu_heading{
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeSideBar_length .dashboards_content{
+  display: none;
+}
+.activeSideBar_length .menu_text_heading{
+  visibility: hidden;
+
+}
+.activeSideBar_length .menu_text_heading svg{
+  visibility: visible;
+  font-size: 2rem;
+  left: 25px; 
+  display: block;
+}
+.activeSideBar_length .sideBar_menu_Dashboards a{
+  padding-top: 15px;
+}
+.activeSideBar_length .SideBar_Heading_active svg{
+  color: lightgreen;
+}
